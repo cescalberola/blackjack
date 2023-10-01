@@ -16,13 +16,38 @@
 
     <div class="row mt-2">
         <div class="col text-center">
-            <button>Nuevo Juego</button>
-            <button>Pido carta</button>
-            <button>Me planto</button>
-
+            <button class="btn btn-danger">Nuevo Juego</button>
+            <button class="btn btn-primary">Pido carta</button>
+            <button class="btn btn-primary">Me planto</button>
         </div>
-
     </div>
+    
+    <div class="row container mt-2">
+        <div class="col"> 
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas">
+                <img class="carta" src="/assets/cartas/10C.png">
+                <img class="carta" src="/assets/cartas/10C.png">
+                <img class="carta" src="/assets/cartas/10C.png">
+                <img class="carta" src="/assets/cartas/10C.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col"> 
+            <h1>Banca - <small>0</small></h1>
+            <div id="banca-cartas">
+                <img class="carta" src="/assets/cartas/10C.png">
+                <img class="carta" src="/assets/cartas/10C.png">
+                <img class="carta" src="/assets/cartas/10C.png">
+                <img class="carta" src="/assets/cartas/10C.png">
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="/assets/js/underscore-min.js"></script>
     <script src="/assets/js/juego.js"></script>
 </body>
 </html>
